@@ -1,3 +1,3 @@
-variable AWS_REGION {
+variable "AWS_REGION" {
   default = "ap-south-1"
 }

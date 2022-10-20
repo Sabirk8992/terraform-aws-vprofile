@@ -1,4 +1,4 @@
-provider = "aws" {
+provider "aws"{
   region = var.AWS_REGION
 }
 
@@ -44,7 +44,7 @@ variable dbpass {
 }
 
 variable dbname {
-  deafult = "accounts"
+  default = "accounts"
 }
 
 variable instance_count {
